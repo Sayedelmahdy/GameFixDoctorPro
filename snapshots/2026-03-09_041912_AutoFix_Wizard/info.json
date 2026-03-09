@@ -1,9 +1,0 @@
-{
-  "name": "2026-03-09_041912_AutoFix_Wizard",
-  "created": "2026-03-09T04:19:12.781292",
-  "action": "AutoFix Wizard",
-  "components": [
-    "services",
-    "restore_point"
-  ]
-}

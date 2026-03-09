@@ -49,34 +49,24 @@ This tool follows strict safety rules:
 
 ## Installation
 
-1. Clone or download this repository.
-2. Run:
-   ```bat
-   install.cmd
-   ```
-3. Open a new CMD and run:
-   ```bat
-   gamedoctor
-   ```
+### 1) GitHub Release (Recommended)
 
-Manual alternative:
+1. Open the latest release:
+   `https://github.com/Sayedelmahdy/GameFixDoctorPro/releases/latest`
+2. Download `GameFixDoctorPro-<version>-win-x64.zip`
+3. Extract and run `GameFixDoctorPro.exe`
+
+### 2) From Source (Developer option)
+
 ```bat
-python -m pip install --user .
+install.cmd
 gamedoctor
 ```
 
-Runtime data location (installed mode):
+Runtime data path (installed mode):
 - `%LOCALAPPDATA%\GameFixDoctorPro\`
-- Override with `GAMEFIX_HOME`
-- Portable mode in current folder: `set GAMEFIX_PORTABLE=1`
-
-After winget approval, installation will also be:
-```bat
-winget install SayedElmahdy.GameFixDoctorPro
-```
-
-For publishing steps, see:
-- `docs/WINGET_PUBLISH.md`
+- Set `GAMEFIX_HOME` to override
+- Set `GAMEFIX_PORTABLE=1` for portable mode
 
 ---
 
@@ -111,7 +101,6 @@ All documentation is in the `docs/` folder:
 | DATA_SPECS.md | Data structures and JSON databases |
 | SAFETY_RULES.md | Safety requirements and rules |
 | AUTO_FIX_FLOW.md | Auto-Fix Wizard specification |
-| WINGET_PUBLISH.md | How to publish/update on winget |
 
 ---
 

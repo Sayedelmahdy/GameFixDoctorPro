@@ -1,1 +1,0 @@
-.\scripts\publish_winget.ps1 -PackageVersion 1.0.0 -InstallerUrl "https://github.com/Sayedelmahdy/GameFixDoctorPro/releases/download/v1.0.0/GameFixDoctorPro-1.0.0-win-x64.zip" -LocalInstallerPath ".\dist\GameFixDoctorPro-1.0.0-win-x64.zip" -Submit

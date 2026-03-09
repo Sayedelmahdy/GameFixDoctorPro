@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Runtime/generated app data
+kits/
+reports/
+snapshots/
+settings.json
+winget/
+docs/
+command.txt
+
+# Local env/editor
+.venv/
+venv/
+.idea/
+.vscode/

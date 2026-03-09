@@ -1,9 +1,0 @@
-{
-  "name": "2026-03-09_042751_Stop_service_Spooler",
-  "created": "2026-03-09T04:27:51.791452",
-  "action": "Stop service Spooler",
-  "components": [
-    "services",
-    "restore_point"
-  ]
-}
