@@ -1,0 +1,15 @@
+{
+  "type": "memory",
+  "timestamp": "2026-03-09T05:38:15.878299",
+  "source": "manual",
+  "status": "PASS",
+  "message": "No errors",
+  "notes": "ok",
+  "decision": {
+    "status": "FAIL",
+    "summary": "Memory test indicates possible RAM errors.",
+    "reasons": [
+      "Memory diagnostics detected issues/errors."
+    ]
+  }
+}

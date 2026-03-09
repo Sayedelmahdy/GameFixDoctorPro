@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamefix-doctor-pro"
+version = "1.0.0"
+description = "Windows gaming diagnosis and optimization CLI tool"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Sayed Elmahdy", email = "sayed.work223@gmail.com" }
+]
+dependencies = [
+  "psutil>=5.9.0",
+  "wmi>=1.5.1",
+  "colorama>=0.4.6",
+  "pywin32>=305",
+  "GPUtil>=1.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Sayedelmahdy"
+Repository = "https://github.com/Sayedelmahdy"
+
+[project.scripts]
+gamedoctor = "gamefix_doctor:main"
+
+[tool.setuptools]
+py-modules = ["gamefix_doctor"]
+
+[tool.setuptools.packages.find]
+include = ["core*", "modules*"]

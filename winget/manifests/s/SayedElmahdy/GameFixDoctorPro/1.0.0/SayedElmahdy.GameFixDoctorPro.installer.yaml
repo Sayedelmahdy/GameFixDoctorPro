@@ -1,0 +1,16 @@
+﻿# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# Created with scripts/generate_winget_manifest.ps1
+PackageIdentifier: SayedElmahdy.GameFixDoctorPro
+PackageVersion: 1.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: 'GameFixDoctorPro.exe'
+    PortableCommandAlias: 'gamedoctor'
+Installers:
+  - Architecture: x64
+    InstallerUrl: 'https://github.com/Sayedelmahdy/GameFixDoctorPro/releases/download/v1.0.0/GameFixDoctorPro-1.0.0-win-x64.zip'
+    InstallerSha256: FFE0F20CC2D7BCF2804B54D9EB9C64DAE08F5AC02A60D36448346AA89D4BADBF
+ReleaseDate: 2026-03-09
+ManifestType: installer
+ManifestVersion: 1.10.0

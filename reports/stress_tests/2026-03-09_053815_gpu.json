@@ -1,0 +1,17 @@
+{
+  "type": "gpu",
+  "timestamp": "2026-03-09T05:38:15.877299",
+  "tool": "manual",
+  "duration_min": 25,
+  "max_temp_c": 79.0,
+  "crashed": false,
+  "artifacts": false,
+  "notes": "ok",
+  "decision": {
+    "status": "PASS",
+    "summary": "GPU stress result looks healthy.",
+    "reasons": [
+      "Stable run with no artifacts."
+    ]
+  }
+}

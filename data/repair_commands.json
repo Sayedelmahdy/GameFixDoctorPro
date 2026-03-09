@@ -1,0 +1,7 @@
+{
+  "repairs": {
+    "sfc_scan": "sfc /scannow",
+    "dism_restore": "DISM /Online /Cleanup-Image /RestoreHealth",
+    "flush_dns": "ipconfig /flushdns"
+  }
+}

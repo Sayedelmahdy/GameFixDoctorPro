@@ -1,0 +1,14 @@
+{
+  "engines": {
+    "Unity": [
+      "UnityPlayer.dll"
+    ],
+    "Unreal Engine": [
+      "UE4Game.exe",
+      "UE5Game.exe"
+    ],
+    "Game Maker": [
+      "data.win"
+    ]
+  }
+}

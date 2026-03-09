@@ -1,0 +1,24 @@
+{
+  "launchers": [
+    {
+      "name": "Steam",
+      "process_name": "steam.exe"
+    },
+    {
+      "name": "Epic Games",
+      "process_name": "EpicGamesLauncher.exe"
+    },
+    {
+      "name": "GOG Galaxy",
+      "process_name": "GalaxyClient.exe"
+    },
+    {
+      "name": "Ubisoft Connect",
+      "process_name": "upc.exe"
+    },
+    {
+      "name": "EA App",
+      "process_name": "EADesktop.exe"
+    }
+  ]
+}

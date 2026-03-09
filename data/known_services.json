@@ -1,0 +1,17 @@
+{
+  "critical_never_touch": [
+    "RpcSs",
+    "DcomLaunch",
+    "LSM",
+    "SamSs",
+    "WinDefend",
+    "mpssvc"
+  ],
+  "safe_to_disable": [
+    "Spooler",
+    "Fax",
+    "WSearch",
+    "SysMain",
+    "DiagTrack"
+  ]
+}

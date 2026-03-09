@@ -1,0 +1,14 @@
+{
+  "categories": {
+    "gaming_essential": [
+      "Steam",
+      "Epic Games Launcher",
+      "Discord"
+    ],
+    "potentially_heavy": [
+      "iCUE",
+      "Razer Synapse",
+      "Armoury Crate"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "crypto_miners": [
+    "xmrig",
+    "nicehash",
+    "phoenixminer"
+  ],
+  "overlay_software": [
+    "Discord",
+    "GameBar",
+    "RTSS"
+  ]
+}

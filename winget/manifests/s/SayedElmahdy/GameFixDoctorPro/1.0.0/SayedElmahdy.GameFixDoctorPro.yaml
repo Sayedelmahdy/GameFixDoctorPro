@@ -1,0 +1,7 @@
+﻿# yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.10.0.schema.json
+# Created with scripts/generate_winget_manifest.ps1
+PackageIdentifier: SayedElmahdy.GameFixDoctorPro
+PackageVersion: 1.0.0
+DefaultLocale: en-US
+ManifestType: version
+ManifestVersion: 1.10.0

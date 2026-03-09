@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "competitive": {
+      "target": "max_fps"
+    },
+    "balanced": {
+      "target": "60_fps"
+    },
+    "visual_quality": {
+      "target": "best_visuals"
+    }
+  }
+}

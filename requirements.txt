@@ -1,0 +1,20 @@
+# GameFix Doctor Pro - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core system monitoring
+psutil>=5.9.0
+
+# Windows Management Instrumentation
+wmi>=1.5.1
+
+# Terminal colors for CMD
+colorama>=0.4.6
+
+# Windows API access
+pywin32>=305
+
+# GPU information (best detailed metrics on NVIDIA, optional for others)
+GPUtil>=1.4.0
+
+# For building EXE (optional, dev only)
+# pyinstaller>=6.0

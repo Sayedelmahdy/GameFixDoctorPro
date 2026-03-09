@@ -1,0 +1,9 @@
+{
+  "name": "2026-03-09_042553_Stop_service_DiagTrack",
+  "created": "2026-03-09T04:25:53.017652",
+  "action": "Stop service DiagTrack",
+  "components": [
+    "services",
+    "restore_point"
+  ]
+}
