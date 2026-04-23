@@ -160,12 +160,6 @@ GameFix Doctor Pro/
 
 ---
 
-## License
-
-[To be specified]
-
----
-
 ## Disclaimer
 
 This tool modifies Windows settings and services. While every effort has been made to ensure safety, use at your own risk. Always ensure you have backups of important data.
